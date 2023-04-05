@@ -29,7 +29,6 @@ module.exports = {
       boxShadow: {
         innerCustom: 'inset 2px -2px 7px 0 rgba(0, 0, 0, 0.06)',
         mdCustom: '4px -4px 5px 0px rgb(0 0 0 / 0.08), -2px 2px 4px 0px rgb(0 0 0 / 0.06)',
-        podBodyShadow: '9px -9px 24px 6px var(--tw-shadow-color), 0px 0px 50px -49px var(--tw-shadow-color)',
         podBodyShadow: `0.3px -0.2px 0.5px hsl(var(--tw-shadow-color) / 0.09),
         1.1px -0.9px 1.8px -0.1px hsl(var(--tw-shadow-color) / 0.1),
         1.9px -1.5px 3.1px -0.3px hsl(var(--tw-shadow-color) / 0.12),

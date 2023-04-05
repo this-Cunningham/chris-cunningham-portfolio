@@ -2,13 +2,13 @@ import { PodButtonsRow } from './PodButtons';
 import { PodScreen } from './PodScreen';
 import { ScrollWheel } from './ScrollWheel';
 
-export const PodBody = ({ children }: { children: React.ReactNode }) => {
+export const PodBody = () => {
   return (
     <div className='bg-white flex flex-col h-96 sm:h-[614px] w-56 sm:w-[366px] rounded-[36px] mx-auto shadow-indigo-200/70 relative shadow-podBodyShadow'>
+      <BodyBevel />
       <PodScreen />
       <PodButtonsRow />
       <ScrollWheel />
-      <BodyBevel />
     </div>
   );
 };

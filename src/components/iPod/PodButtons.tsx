@@ -1,7 +1,7 @@
 const PodButton = ({ children }: { children: React.ReactNode }) => (
-  <div className='flex items-center justify-center sm:w-16 sm:h-16 rounded-full bg-gray-50 neon font-bold text-xs shadow-innerCustom'>
+  <button className='flex items-center justify-center sm:w-16 sm:h-16 rounded-full bg-gray-50 neon font-bold text-xs shadow-innerCustom'>
     { children }
-  </div>
+  </button>
 );
 
 const PodButtonPrevious = () => {
